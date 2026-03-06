@@ -433,7 +433,7 @@ body {
     box-shadow: var(--shadow);
     transition: var(--transition);
     text-align: left;
-    border: 2px solid transparent;
+    border: 1px solid var(--gray);
 }
 
 .light-mode .explore-card{
