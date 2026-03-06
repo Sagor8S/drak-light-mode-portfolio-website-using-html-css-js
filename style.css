@@ -578,6 +578,132 @@ body {
     text-decoration: underline;
 }
 
+/* community section code start here */
+
+.community{
+    padding: 80px 20px;
+    color: var(--light);
+    text-align: center;
+    transition: var(--transition);
+}
+
+.ligh-mode .community{
+    background: var(--light);
+    color: var(--dark);
+}
+
+.community-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.community-subtitle{
+    color: var(--gray);
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+
+.community-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.community-card{
+    padding: 30px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.community-card:hover{
+    transform: translateY(-8px);
+    border: 2px solid transparent;
+}
+
+.ligh-mode .community-card:hover{
+    background: linear-gradient(#ffffff, #ffffff) padding-box,
+    var(--gradient) border-box;
+}
+
+.community-card .icon{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.community-card h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--primary);
+}
+
+.ligh-mode .community-card h3{
+    color: var(--secondary);
+}
+
+.community-card p{
+    font-size: 1rem;
+    color: var(--gray);
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.community-btn{
+    display: inline-block;
+    font-weight: 600;
+    color: var(--secondary);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.community-btn:hover{
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
