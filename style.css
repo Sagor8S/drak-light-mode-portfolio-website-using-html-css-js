@@ -815,7 +815,7 @@ body {
     outline: none;
     font-size: 1rem;
     transition: var(--transition);
-    color: var(--light);
+    /* color: var(--light); */
 }
 
 .ligh-mode .form-group input {
@@ -859,6 +859,20 @@ textarea:focus {
 
 .btn-gradient:hover {
     transform: translateY(-3px) scale(1.03);
+}
+
+
+/* footer section code start here */
+
+.footer{
+    font-size: 1.3rem;
+}
+
+.footer-title p{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background: #202e45;
 }
 
 
